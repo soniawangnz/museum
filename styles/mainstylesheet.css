@@ -1,0 +1,537 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    z-index: 20;
+    position: absolute;
+    bottom: 50px;
+    right: 00px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 40px;
+
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: lighter;
+    z-index: 20;
+    position: absolute;
+    bottom: 50px;
+    right: 60px;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-size: 17px; 
+}
+
+.cupback {
+margin-top:-750px;
+opacity: 0.1;
+animation: beak 2.2s infinite;
+}
+
+.cupback1 {
+    margin-top:-730px;
+    opacity: 0.4;
+    animation: beak1 2s infinite;
+    }
+
+    .cupback2 {
+        margin-top:-720px;
+        opacity: 0.4;
+        animation: beak2 2s infinite;
+        }
+
+@keyframes beak {
+0% {opacity: 0.1;}
+20%{opacity: 0.1;}
+70% {opacity: 0.35;}
+100% {opacity: 0.1}
+}
+
+@keyframes beak1 {
+0% {opacity: 0.3;}
+60%{opacity: 0.1;}
+100% {opacity: 0.3;}
+}
+
+@keyframes beak2 {
+    0% {opacity: 0.2;}
+    40% {opacity: 0.2;}
+    90%{opacity: 0.1;}
+    100% {opacity: 0.2;}
+    }
+    
+
+
+.cuplines {
+margin-top: 0px;
+opacity:1;
+}
+
+.ovals {
+    z-index: 10;
+    opacity: 0.75;
+}
+
+.oval1 {
+    height: 16px;
+    width: 30px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    animation: anim1 3s infinite;
+}
+
+@keyframes anim1 {
+    0% {border-width: 1px;}
+    6.25% {border-width: 3px;}
+    6.3% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval2 {
+    height: 26px;
+    width: 49px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 69%;
+    left: 29.3%;
+    animation: anim2 3s infinite;
+}
+
+@keyframes anim2 {
+    0% {border-width: 1px;}
+    12.5% {border-width: 3px;}
+    12.6% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval3 {
+    height: 38px;
+    width: 71px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 68%;
+    left: 28.6%;
+    animation: anim3 3s infinite;
+}
+
+@keyframes anim3 {
+    0% {border-width: 1px;}
+    18.75% {border-width: 3px;}
+    18.8% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval4 {
+    height: 51px;
+    width: 95px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 67%;
+    left: 27.8%;
+    animation: anim4 3s infinite;
+}
+
+@keyframes anim4 {
+    0% {border-width: 1px;}
+    25% {border-width: 3px;}
+    25.1% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval5 {
+    height: 70px;
+    width: 131px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 65.4%;
+    left: 26.6%;
+    animation: anim5 3s infinite;
+}
+
+@keyframes anim5 {
+    0% {border-width: 1px;}
+    31.25% {border-width: 3px;}
+    31.3% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval6 {
+    height: 106px;
+    width: 199px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 63%;
+    left: 24.3%;
+    animation: anim6 3s infinite;
+}
+
+@keyframes anim6 {
+    0% {border-width: 1px;}
+    37.5% {border-width: 3px;}
+    37.52% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval7 {
+    height: 171px;
+    width: 321px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 59%;
+    left: 20%;
+    animation: anim7 3s infinite;
+}
+
+@keyframes anim7 {
+    0% {border-width: 1px;}
+    43.75% {border-width: 3px;}
+    43.77% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval8 {
+    height: 260px;
+    width: 489px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 53%;
+    left: 14.5%;
+    animation: anim8 3s infinite;
+}
+
+@keyframes anim8 {
+    0% {border-width: 1px;}
+    50% {border-width: 2px;}
+    50.02% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval9 {
+    height: 346px;
+    width: 650px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 48%;
+    left: 9%;
+    animation: anim9 3s infinite;
+}
+
+@keyframes anim9 {
+    0% {border-width: 1px;}
+    56.25% {border-width: 2px;}
+    56.27% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval10 {
+    height: 412px;
+    width: 775px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 44%;
+    left: 5%;
+    animation: anim10 3s infinite;
+}
+
+@keyframes anim10 {
+    0% {border-width: 1px;}
+    62.5% {border-width: 2px;}
+    62.52% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval11 {
+    height: 490px;
+    width: 951px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 39%;
+    left: -1%;
+    animation: anim11 3s infinite;
+}
+
+@keyframes anim11 {
+    0% {border-width: 1px;}
+    68.75% {border-width: 2px;}
+    68.77% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval12 {
+    height: 606px;
+    width: 1140px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 32%;
+    left: -7%;
+    animation: anim12 3s infinite;
+}
+
+@keyframes anim12 {
+    0% {border-width: 1px;}
+    75% {border-width: 2px;}
+    75.02% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval13 {
+    height: 730px;
+    width: 1373px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 24%;
+    left: -15%;
+    animation: anim13 3s infinite;
+}
+
+@keyframes anim13 {
+    0% {border-width: 1px;}
+    81.25% {border-width: 2px;}
+    81.27% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval14 {
+    height: 906px;
+    width: 1704px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: -27%;
+    animation: anim14 3s infinite;
+}
+
+@keyframes anim14 {
+    0% {border-width: 1px;}
+    87.5% {border-width: 2px;}
+    87.57% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval15 {
+    height: 1088px;
+    width: 2046px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: -3%;
+    left: -39%;
+    animation: anim15 3s infinite;
+}
+
+@keyframes anim15 {
+    0% {border-width: 1px;}
+    93.75% {border-width: 2px;}
+    93.77% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.oval16 {
+    height: 1256px;
+    width: 2362px;
+    border: #EAE3D8 solid;
+    border-width: 1px;
+    border-radius: 50%;
+    position: absolute;
+    top: -15%;
+    left: -51%;
+    animation: anim16 3s infinite;
+}
+
+@keyframes anim16 {
+    0% {border-width: 1px;}
+    99% {border-width: 2px;}
+    99.02% {border-width: 1px;}
+    100% {border-width: 1px;}
+}
+
+.dot1 {
+    height: 20px;
+    width: 55px;
+    border: #afa9a1 solid;
+    border-width: 3px;
+    border-radius: 50%;
+    position: absolute;  
+    bottom: 530px;
+    left: 840px;
+    transform: rotate(55deg);
+    animation: doot1 0.5s infinite;
+    background-color: white;
+
+}
+
+@keyframes doot1 {
+    0% {transform: rotate(55deg)}
+    25% {transform: rotate(60deg)}
+    50% {transform: rotate(55deg)}
+    75% {transform: rotate(50deg)}
+    100% {transform: rotate(55deg)}
+}
+
+.dot2 {
+    height: 8px;
+    width: 23px;
+    border: #afa9a1 solid;
+    border-width: 3px;
+    border-radius: 50%;
+    position: absolute;  
+    bottom: 535px;
+    left: 890px;
+    transform: rotate(55deg);
+    animation: doot2 0.5s infinite;
+    background-color: white;
+}
+
+@keyframes doot2 {
+    0% {transform: rotate(55deg)}
+    25% {transform: rotate(50deg)}
+    50% {transform: rotate(55deg)}
+    75% {transform: rotate(60deg)}
+    100% {transform: rotate(55deg)}
+}
+
+.dot3 {
+    height: 15px;
+    width: 41px;
+    border: #afa9a1 solid;
+    border-width: 3px;
+    border-radius: 50%;
+    position: absolute;  
+    bottom: 495px;
+    left: 835px;
+    transform: rotate(55deg);
+    animation: doot3 0.5s infinite;
+    background-color: white;
+}
+
+@keyframes doot3 {
+    0% {transform: rotate(55deg)}
+    25% {transform: rotate(50deg)}
+    50% {transform: rotate(55deg)}
+    75% {transform: rotate(60deg)}
+    100% {transform: rotate(55deg)}
+}
+
+.drip1{
+    height: 188px;
+    width: 16px;
+    border: #EAE3D8 solid;
+    border-width: 5px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 600px;
+    left: 40px;
+    z-index: 26;
+}
+
+.drip2{
+    height: 14px;
+    width: 14px;
+    border: #EAE3D8 solid;
+    border-width: 5px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 565px;
+    left: 41px;
+    z-index: 15;
+}
+
+
+.drip3{
+    height: 110px;
+    width: 16px;
+    border: #EAE3D8 solid;
+    border-width: 5px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 670px;
+    left: 90px;
+}
+
+.drip4{
+    height: 170px;
+    width: 16px;
+    border: #EAE3D8 solid;
+    border-width: 5px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 475px;
+    left: 90px;
+    z-index: 27;
+}
+
+.drip5{
+    height: 14px;
+    width: 14px;
+    border: #EAE3D8 solid;
+    border-width: 5px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 440px;
+    left: 90px;
+    animation: driip2 4s infinite linear;
+    z-index: 16;
+}
+
+.drop {
+    height: 14px;
+    width: 14px;
+    border: #afa9a1 solid;
+    border-width: 5px;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 800px;
+    left: 435px;
+    animation: droop 3s infinite linear;
+}
+
+@keyframes droop {
+    0% {visibility: hidden;}
+    49.9% {visibility: visible;}
+    50% {bottom: 800px;}
+    99.5% {bottom: 225px;}
+    99.51% {visibility: hidden;}
+    100% {visibility: hidden;}
+}
+
+.st3{fill:#EAE3D8;}
+.st0{fill:none;stroke:#EAE3D8;stroke-width:2;stroke-miterlimit:10;}
+.st1{fill:none;stroke:#898580;stroke-width:2;stroke-miterlimit:10;}
